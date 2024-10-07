@@ -1,0 +1,146 @@
+* {
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o padding padrão de todos os elementos */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Define a fonte padrão da página */
+}
+
+.logo {
+    width: 150px; /* Define a largura da logo */
+}
+
+#pagina-home {
+    height: 613px; /* Define a altura da seção da página inicial */
+    background: linear-gradient(rgba(17,17,15,0.404), rgba(34,30,4,0.685)), url(../Img/banner.png); /* Aplica um gradiente e uma imagem de fundo */
+    background-size: cover; /* Faz a imagem de fundo cobrir toda a área */
+}
+
+.menu-principal ul {
+    list-style: none; /* Remove os marcadores padrão da lista */
+}
+
+.menu-principal ul li {
+    display: inline-block; /* Exibe os itens da lista em linha, como blocos */
+}
+
+.menu-principal ul li a {
+    color: white; /* Define a cor do texto dos links como branco */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    text-transform: uppercase; /* Transforma o texto dos links em maiúsculas */
+    padding: 5px 20px; /* Adiciona padding interno aos links */
+    border: 1px solid transparent; /* Define uma borda invisível para os links */
+    transition: 1.06s ease; /* Aplica uma transição suave nas propriedades ao passar o mouse */
+}
+
+.menu-principal ul li a:hover {
+    background-color: white; /* Altera a cor de fundo para branco ao passar o mouse */
+    color: black; /* Altera a cor do texto para preto ao passar o mouse */
+}
+
+.menu-principal ul li .link-ativo {
+    background: white; /* Define o fundo como branco para o link ativo */
+    color: black; /* Define a cor do texto como preto para o link ativo */
+}
+
+.categoria {
+    display: flex; /* Habilita o layout flexível para a categoria */
+    align-items: flex-end; /* Alinha os itens da categoria ao final do container */
+    justify-content: space-between; /* Distribui os itens com espaço entre eles */
+}
+h1{
+    font-size: 70px;
+    color: white;
+    margin: 30px;
+}
+.btn{
+    border: 1px solid white;
+    padding: 10px 80px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    margin: 10px;
+}
+.btn:hover{
+    background: white;
+    color: black;
+}
+.conteudo-baner{
+    height: 438px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.minha-galeria {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; /* Garante que as imagens fiquem em linha */
+    flex-wrap: nowrap; /* Impede que as imagens quebrem para a linha de baixo */
+    margin: 20px;
+    
+}
+
+.galeria-item {
+    margin: 50px;
+    text-align: center;
+    width: 314px;
+    height: 500px; ;
+}
+
+.minha-galeria img {
+    border: 2px solid black; /* Borda preta */
+    border-radius: 5px; /* Bordas levemente arredondadas */
+    width: 314px;
+    height: 368px; 
+    transition: filter 0.3s ease;
+}
+
+.titulo {
+    color: rgb(0, 0, 0); /* Cor do título */
+    margin-top: 5px; /* Espaço acima do título */
+    background-color:  rgb(255, 102, 0);
+}
+
+
+
+.galeria-item:hover {
+    filter: grayscale(100%); 
+}
+.tabela-passeios {
+    width: 50%; /* Ajuste a largura conforme necessário */
+    margin: 0 auto; /* Centraliza a tabela horizontalmente */
+    border-collapse: collapse; /* Remove o espaço entre as bordas */
+}
+
+.tabela-passeios th, .tabela-passeios td {
+    border: 1px solid gray; /* Borda cinza */
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+}
+
+.tabela-passeios th {
+    background-color: #f2f2f2; /* Cor de fundo para o cabeçalho */
+}
+
+.tabela-passeios tr {
+    border-bottom: 1px solid gray; /* Linha cinza entre as linhas */
+}
+
+.tabela-passeios tr:last-child {
+    border-bottom: none; /* Remove a linha da última linha */
+}
+
+.tabela-passeios td {
+    text-align: center; /* Centraliza o texto na coluna de valores */
+    
+}
+.oi{
+    word-spacing: 350px;
+}
+.xx{
+   background-color: rgb(95, 45, 27);
+   text-align: center;
+}
+
